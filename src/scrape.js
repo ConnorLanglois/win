@@ -1,0 +1,1 @@
+document.getElementsByClassName('codeSnippetContainerCode')[0].getElementsByTagName('pre')[0].textContent.split('\n').slice(2, -3).map(param => param.substring(param.indexOf(' ')).trim().replace(/\s+/, ' ')).join(' ');
